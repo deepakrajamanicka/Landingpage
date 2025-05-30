@@ -197,13 +197,13 @@ export const LandingPage = (): JSX.Element => {
         <div className="text-center bg-gradient-to-r from-blue-900 to-blue-800 p-12 rounded-2xl border border-blue-700">
           <h2 className="text-4xl font-bold mb-6">Start Your Success Journey Today! 🚀</h2>
           <p className="text-xl mb-8 text-blue-300">90% Discount Ends Soon - Don't Miss This Opportunity!</p>
-          <Button 
+          <Button
             className="bg-gradient-to-r from-green-500 to-green-700 hover:from-green-600 hover:to-green-800 text-xl px-12 py-6"
-            onClick={() => window.open("https://wa.me/+9174187 32525", "_blank")}
+            onClick={() => window.open("https://wa.me/+917418732525", "_blank")}
           >
             Chat on WhatsApp for Special Offer 🎁
           </Button>
-        </div>
+        </div>  
       </div>
     </div>
   );
