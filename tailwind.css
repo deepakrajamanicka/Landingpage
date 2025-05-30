@@ -1,3 +1,4 @@
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -156,10 +157,6 @@
   --lasakeduinwild-sand: rgba(245, 245, 245, 1);
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -238,3 +235,16 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+/* ========================================================================== */
+/* TrustIndex Widget Override - Attempt to force inline positioning           */
+/* ========================================================================== */
+/*
+  IMPORTANT: The selector used below (targeting the first child of your
+  data-attribute div) is a common approach. However, if TrustIndex
+  has a very specific and stable outermost class for its widget, using that
+  might be another option. You should verify the actual structure and
+  problematic CSS rules by inspecting the widget in your browser if this
+  doesn't fully resolve the issue.
+*/
+
